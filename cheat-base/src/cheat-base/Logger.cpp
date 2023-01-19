@@ -14,7 +14,7 @@ Logger::Level Logger::s_FileLogLevel = Logger::Level::None;
 Logger::Level Logger::s_ConsoleLogLevel = Logger::Level::None;
 
 std::string Logger::directory = "";
-std::string Logger::logfilepath = "X:\\file.txt";
+std::string Logger::logfilepath = "";
 std::mutex Logger::_mutex{};
 
 void Logger::SetLevel(Level level, LoggerType type)
@@ -117,8 +117,8 @@ void Logger::Log(Logger::Level logLevel, const char* filepath, int line, const c
 		std::cout << "] " << logLineConsole << std::endl;
 	}
 
-	//if (Logger::s_FileLogLevel != Logger::Level::None && Logger::s_FileLogLevel >= logLevel) 
-	//{
+	if (Logger::s_FileLogLevel != Logger::Level::None && Logger::s_FileLogLevel >= logLevel) 
+	{
 		const std::lock_guard<std::mutex> lock(_mutex);
 
 		auto rawTime = std::chrono::system_clock::to_time_t(std::chrono::system_clock::now());
@@ -127,7 +127,7 @@ void Logger::Log(Logger::Level logLevel, const char* filepath, int line, const c
 		auto logLineFile = util::string_format("[%02d:%02d:%02d] [%s] [%s:%d] %s", gmtm.tm_hour, gmtm.tm_min, gmtm.tm_sec, 
 			prefix.text, filename.c_str(), line, buffer);
 		LogToFile(Logger::logfilepath, logLineFile);
-	//}
+	}
 }
 
 void Logger::PrepareFileLogging(std::string directory)

@@ -97,6 +97,7 @@
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)bin\$(Configuration)-$(PlatformShortName)\</OutDir>
     <IntDir>$(SolutionDir)bin\$(Configuration)-$(PlatformShortName)\obj\$(ProjectName)\</IntDir>
+    <IncludePath>C:\Users\SEALLKILLER\Desktop\Исходники\genshin\Akebi-GC-v1.2.2\cheat-base\vendor\imgui\misc;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_WS|x64'">
     <LinkIncremental>false</LinkIncremental>

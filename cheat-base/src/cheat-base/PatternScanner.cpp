@@ -345,9 +345,6 @@ bool PatternScanner::IsValidModuleHash(HMODULE hModule, const nlohmann::json& ha
 	size_t currChecksum = m_ComputedHashes.count(hModule) > 0 ? m_ComputedHashes[hModule] : ComputeChecksum(GetModuleInfo(hModule).filePath);
 	m_ComputedHashes[hModule] = currChecksum;
 
-	std::fstream hueta("X:\\checksum.txt");
-	hueta << currChecksum;
-
 	return checksum == currChecksum;
 }
 
