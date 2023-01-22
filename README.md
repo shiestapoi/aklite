@@ -11,6 +11,13 @@
 
 <h1 align="center">Features</h1>
 
+### Usage
+1. Ensure that `CLibrary.dll` is in the same folder that `injector.exe`.
+2. Run `injector.exe`.
+3. After the login page appeared, press F1 to open `Aklite Menu`.
+
+<h1 align="center">Features</h1>
+
 #### General
 
 - Protection Bypass
