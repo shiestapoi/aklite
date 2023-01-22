@@ -5,7 +5,7 @@
 
 <p align="center"><a href="https://discord.gg/M48bmvjBkf"><img src="https://img.shields.io/discord/1065240585792921620?label=Discord&logo=discord&style=for-the-badge&color=blueviolet">
 
-[English](README_en-US.md) | [简体中文](README_ZH-CN.md)
+[English](README.md) | [简体中文](README_ZH-CN.md)
 
 ---
 
@@ -23,7 +23,7 @@
 - 通知
 
 #### 玩家
-- 上帝模式（无敌）
+- 无敌模式
 - 攻击模式修改: 多次攻击/多目标/多动画
 - 无冷却: 技能/大招/冲刺/弓箭蓄力
 - 无限体力
@@ -31,14 +31,14 @@
 
 #### 大世界
 - 仙灵自动归位
-- 立即打开队伍
+- 立即打开队伍配置
 - 游戏全局加速
 - 笨怪
 - 冻结敌人
 - 自动摧毁：矿石/护盾/杂物/植物
 - 自动收集物品/开启宝箱
 - 自定义拾取范围
-- 自动交谈
+- 自动对话
 - 自动砍树
 - 自动烹饪
 - 伪造时间
@@ -62,7 +62,7 @@
 - 宝箱探测
 - 隐藏UI
 - 游戏内浏览器
-- 窥视模型不消失~~（色）~~
+- 反虚化
 - 个人介面自定义： UID/名称/冒险等级/世界等級/角色/名片
 - 天气自定义
 - 灵魂出窍（自由視角）
