@@ -45,10 +45,10 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="aklite.png">
+    <Image Include="akebi.png">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="aklite.ico">
+    <Image Include="akebi.ico">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
