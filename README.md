@@ -1,14 +1,11 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/67109235/176832764-471a6bd5-405f-43dd-97ec-c11997880993.png" width="300"> [FORK]
+<a href="https://ibb.co/NZkQWG0"><img src="https://i.ibb.co/18phR4C/AKLite.png" alt="AKLite" border="0"></a>
   <br>
-  <a href="README_en-US.md">[EN]</a> | <a href="README_zh-Hans.md">[简中]</a> | <a href="README_zh-Hant.md">[繁中]</a> | <a href="README_vi-vn.md">[VN]</a>
-</p>
 
----
 
 <p align="center"><a href="https://discord.gg/M48bmvjBkf"><img src="https://img.shields.io/discord/1065240585792921620?label=Discord&logo=discord&style=for-the-badge&color=blueviolet">
   
----
+
 
 <h1 align="center">Features</h1>
 
@@ -51,6 +48,7 @@
 - Chest/Oculi Teleport (Teleports to nearest)
 - Map Teleport (Teleport to mark on map)
 - Custom Teleport (Teleport through the list)
+- Auto Teleport <font color="red" >(EXCLUSIVE)</font>
 
 #### Visuals
 
