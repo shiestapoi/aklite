@@ -12,7 +12,7 @@
 ### 使用方法
 1. 确认 `CLibrary.dll` 跟 `injector.exe` 处在同一个文件夹内。
 2. 运行 `injector.exe`.
-3. 等到登录界面出现，按`F1`键打开`Akebi GUI`。
+3. 等到登录界面出现，按`F1`键打开`Aklite 菜单`。
 
 <h1 align="center">功能简介</h1>
 
