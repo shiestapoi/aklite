@@ -128,11 +128,6 @@
     <ClCompile Include="src\user\cheat\world\AutoSeelie.cpp" />
     <ClCompile Include="src\user\cheat\world\CustomWeather.cpp" />
     <ClCompile Include="src\user\cheat\world\FakeTime.cpp" />
-    <ClCompile Include="src\user\cheat\debugger.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release_WS|x64'">false</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
-    </ClCompile>
     <ClCompile Include="src\user\cheat\teleport\CustomTeleports.cpp" />
     <ClCompile Include="src\user\cheat\GenshinCM.cpp" />
     <ClCompile Include="src\user\cheat\visuals\Browser.cpp" />
